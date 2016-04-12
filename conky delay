@@ -1,0 +1,10 @@
+#with some OS's conky will not start because it's trying to load before the desktop enviroment.
+
+#enable to run as program in permitions and enable on start up.
+
+#conky delay script
+
+#!/bin/bash
+#Conky start-up delay script
+
+bash -c "sleep 8; conky"
